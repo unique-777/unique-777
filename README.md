@@ -11,8 +11,6 @@
   <img src="https://img.shields.io/badge/Game%20Designer🎮-AI%20Explorer🤖-Emotive%20Coder💡-8A2BE2?style=for-the-badge&logo=github" />
 </p>
 
----
-
 ## 💫 About Me
 
 🎓 CS Student & Emotion-Oriented Developer  
@@ -20,8 +18,6 @@
 🧪 Exploring **Quantum Federated Learning**, **AutoML**, and **Multimodal AI**  
 💼 Internships: **Microsoft**, **IIT Gandhinagar**, **Extion Infotech**  
 🎨 Bridging tech + feelings, because bugs are temporary, **feelings are forever** 😄
-
----
 
 ## 🛠️ Tech Toolbox
 
@@ -41,8 +37,6 @@
 | 🤯 **Mood-based Story Generator** | Transformers | Generates short emotional stories from user moods |
 | 🧬 **Quantum Federated Learning** | H2O.ai | Distributed healthcare ML with privacy-preserving layers |
 
----
-
 ## 📬 Let’s Connect
 
 <p align="center">
@@ -53,8 +47,6 @@
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
-
----
 
 ## 😂 My Coding Philosophy
 
