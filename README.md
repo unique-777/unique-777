@@ -11,7 +11,7 @@
 </div>
 
 <h1 align="center" style="font-weight:700; color:#6f42c1;">
-  Hey, I'm Jahnavi 👋
+  🔥 Hola! Jahnavi in the house
 </h1>
 
 <p align="center" style="font-size: 18px; color:#5a508a; font-style: italic;">
