@@ -1,58 +1,104 @@
 <!-- README.md -->
 
-<!-- Typing animation header -->
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=500&color=F79E90&center=true&vCenter=true&multiline=true&width=600&lines=🧠+Code+what+people+feel.;🎮+Design+for+healing+and+joy.;🚀+Build+tech+that+cares." alt="Typing SVG">
-</div>
-
-<h1 align="center">Hey, I'm Jahnavi 👋</h1>
-
+<!-- Header Cover Image -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Game%20Designer🎮-AI%20Explorer🤖-Emotive%20Coder💡-8A2BE2?style=for-the-badge&logo=github" />
+  <img src="https://i.ibb.co/F6RmfJX/emotional-ai-game-header.png" alt="Header Cover" width="100%" />
 </p>
 
-## 💫 About Me
-
-🎓 CS Student & Emotion-Oriented Developer  
-🎮 Creator of *Echoes of the Ancients* — a puzzle game where emotions shape the story  
-🧪 Exploring **Quantum Federated Learning**, **AutoML**, and **Multimodal AI**  
-💼 Internships: **Microsoft**, **IIT Gandhinagar**, **Extion Infotech**  
-🎨 Bridging tech + feelings, because bugs are temporary, **feelings are forever** 😄
-
-## 🛠️ Tech Toolbox
-
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,html,css,react,django,tensorflow,pytorch,figma,unity,blender,git&perline=7" />
+<!-- Animated typing SVG -->
+<div align="center" style="margin-top: -40px; margin-bottom: 30px;">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=650&height=50&color=9f79ee&lines=Code+with+Emotion.;Design+for+Humanity.;Build+for+Impact." alt="Typing SVG" />
 </div>
+
+<h1 align="center" style="font-weight:700; color:#6f42c1;">
+  Hey, I'm Jahnavi 👋
+</h1>
+
+<p align="center" style="font-size: 18px; color:#5a508a; font-style: italic;">
+  🎮 Emotion-Driven Game Designer • 🤖 AI & ML Researcher • 🌌 Storyteller in Code
+</p>
 
 ---
 
-## 🌟 Key Projects
+## 🌱 About Me
 
-| Project | Tech Stack | Description |
-|--------|------------|-------------|
-| 🎮 **Echoes of the Ancients** | Unity + ML + Blender | Emotion-based evolving anime character with myth-inspired storytelling |
-| 🧠 **AI-Powered Fraud Detection** | AutoML + RandomForest | Automated prediction system for suspicious transactions |
-| 💊 **Medicine Search Engine** | Django + FDA API | Drug checker with affordability index and price predictor |
-| 🤯 **Mood-based Story Generator** | Transformers | Generates short emotional stories from user moods |
-| 🧬 **Quantum Federated Learning** | H2O.ai | Distributed healthcare ML with privacy-preserving layers |
+- 🎓 CS Student passionate about blending **emotions & algorithms**  
+- 🧠 Creator of <i><b>Echoes of the Ancients</b></i>: a game where **mood evolves your character**  
+- 🔍 Exploring **Quantum Federated Learning**, **Multimodal AI**, and **AutoML**  
+- 💼 Interned at **Microsoft**, **IIT Gandhinagar**, **Extion Infotech**, and more
 
-## 📬 Let’s Connect
+---
+
+## ⚙️ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,html,css,react,django,tensorflow,pytorch,autokeras,huggingface,git,unity,blender,figma&perline=7" alt="Tech Stack" />
+</p>
+
+---
+
+## 🌟 Selected Projects
+
+<table align="center">
+  <tr>
+    <td align="center" width="120">
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968322.png" width="64" alt="Game Icon" />
+      <br/>
+      <b>Echoes of the Ancients</b><br/>
+      <small>Unity + ML + Emotion-based growth</small>
+    </td>
+    <td align="center" width="120">
+      <img src="https://cdn-icons-png.flaticon.com/512/128/128558.png" width="64" alt="AI Icon" />
+      <br/>
+      <b>AI Fraud Detection</b><br/>
+      <small>AutoML + Random Forest</small>
+    </td>
+    <td align="center" width="120">
+      <img src="https://cdn-icons-png.flaticon.com/512/2919/2919592.png" width="64" alt="Medicine Icon" />
+      <br/>
+      <b>Medicine Price Predictor</b><br/>
+      <small>Django + OpenFDA API</small>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="120">
+      <img src="https://cdn-icons-png.flaticon.com/512/2601/2601806.png" width="64" alt="Quantum Icon" />
+      <br/>
+      <b>Quantum Federated Learning</b><br/>
+      <small>H2O.ai + AutoML for Hospitals</small>
+    </td>
+    <td align="center" width="120">
+      <img src="https://cdn-icons-png.flaticon.com/512/869/869636.png" width="64" alt="Story Icon" />
+      <br/>
+      <b>Mood-Based Story Generator</b><br/>
+      <small>Hugging Face Transformers</small>
+    </td>
+    <td align="center" width="120">
+      <img src="https://cdn-icons-png.flaticon.com/512/3755/3755716.png" width="64" alt="Gamepad Icon" />
+      <br/>
+      <b>3D Escape Ball Game</b><br/>
+      <small>Unity with Immersive Gameplay</small>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 📫 Contact Me
 
 <p align="center">
   <a href="https://www.linkedin.com/in/nayanapalli-venkata-jahnavi-226417258/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:jahnavi@example.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  <a href="mailto:jahnavi@example.com" target="_blank">
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
-## 😂 My Coding Philosophy
+---
 
-> I write code like therapy — not for machines, but for **humans who need to smile**.
+## 🎉 Fun Fact
 
-```python
-while not solving_emotions:
-    keep_learning()
-    keep_debugging_feelings()
+> I don’t just write code — I **design how people feel** when they interact with it.  
+> Sometimes that means debugging bugs, sometimes debugging emotions. 🎮💜
+
