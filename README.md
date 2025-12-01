@@ -1,4 +1,4 @@
-<!-- Ultimate Animated GitHub Profile README for Nayanapalli Venkata Jahnavi -->
+<!-- Animated GitHub Profile README with Project Cards and Call-to-Action -->
 
 <p align="center">
   <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="200" />
@@ -28,19 +28,46 @@
 
 **Platforms/Tools:** GitHub, Jupyter Notebook, Unity, Blender, MySQL, AWS, Azure
 
-## 💼 Internship Experience
-- **Aurora Rising Summer School (AB Six Robotics)** | IIT Gandhinagar (May 2025)
-- **Game Design Internship** | APSSDC (May 2025 - Jul 2025)
-- **Microsoft AI Azure Internship** | Edunet Foundation (May 2025 - Jun 2025)
-- **Data Science Internship** | SURE Trust (Jun 2024 - Dec 2024)
-- **AI & ML Internship** | Extion Infotech (Oct 2024 - Nov 2024)
+## 🚀 Projects (Interactive Cards)
+<p align="center">
+  <img src="https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy.gif" width="250" />
+</p>
 
-## 🚀 Projects
-| Project | Description | Tags |
-|--------|-------------|------|
-| Mood & Theme Based Story Generation | Real-time story generator adapting to user mood and voice using Django, Transformers & Coqui TTS | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square) |
-| Odd Number Game Using LeapHand | Computer vision interactive game detecting finger count with OpenCV | ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square) |
-| Financial Inclusion-Payment Reversal | Django + ML prototype for fraud detection and transaction reversal | ![Machine Learning](https://img.shields.io/badge/ML-FF6F00?style=flat-square) ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square) |
+<div align="center">
+<table>
+<tr>
+<td align="center">
+<p><b>Mood & Theme Based Story Generation</b></p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge" />
+<p>Real-time story generator that adapts to user mood and voice using HuggingFace Transformers & Coqui TTS.</p>
+</td>
+<td align="center">
+<p><b>Odd Number Game Using LeapHand</b></p>
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge" />
+<p>Interactive computer vision game detecting finger count; Leap Hand replicates gestures for odd numbers.</p>
+</td>
+</tr>
+<tr>
+<td align="center">
+<p><b>Financial Inclusion-Payment Reversal</b></p>
+<img src="https://img.shields.io/badge/ML-FF6F00?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge" />
+<p>Full-stack ML prototype for fraud detection and transaction reversal; improves efficiency & reduces losses.</p>
+</td>
+<td align="center">
+<p><b>BrainInnovator Research Project</b></p>
+<img src="https://img.shields.io/badge/DeepLearning-8A2BE2?style=for-the-badge" />
+<p>Hands-on research in AI/ML models, Quantum Federated Learning, and multimodal learning implementation.</p>
+</td>
+</tr>
+</table>
+</div>
+
+<p align="center">
+<a href="mailto:jahnavi.venkata777@gmail.com" style="display:inline-block;padding:10px 20px;margin-top:20px;background-color:#00BFFF;color:white;border-radius:8px;font-weight:bold;text-decoration:none;">📬 Connect With Me!</a>
+</p>
 
 ## 🏆 Achievements & Volunteering
 - Runner-up, Infosys Women Hackathon – Health & Wellness (2024)
@@ -59,12 +86,3 @@
   <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical" />
 </p>
-
-<p align="center">
-  <img src="https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy.gif" width="250" />
-</p>
-
-## 📫 Contact Me
-- Email: jahnavi.venkata777@gmail.com
-- LinkedIn: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
-- GitHub: [github.com/yourusername](https://github.com/yourusername)
