@@ -1,19 +1,45 @@
-<!-- Animated GitHub Profile README with Project Cards and Call-to-Action -->
+<!-- Animated GitHub Profile README with AI/ML Focus and Project Cards -->
 
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="200" />
-</p>
+<h1 align="center">
+  <span style="display:inline-block; animation: bounce 1.5s infinite;">👋 Hello! I'm Nayanapalli Venkata Jahnavi</span>
+</h1>
+<h3 align="center">
+  <span style="display:inline-block; animation: pulse 2s infinite;">AI/ML Engineering Aspirant | Research Enthusiast | Healthcare & Innovation Focused</span>
+</h3>
 
-<h1 align="center">Hello! I'm <b>Nayanapalli Venkata Jahnavi</b> 👋</h1>
-<h3 align="center">AI/ML Engineering Aspirant | Research Enthusiast | Healthcare & Innovation Focused</h3>
-
-<p align="center">
-📍 Kadapa, Andhra Pradesh &nbsp;|&nbsp; 📞 +91 8919403177 &nbsp;|&nbsp; 📧 jahnavi.venkata777@gmail.com
-</p>
 <p align="center">
   <a href="https://www.linkedin.com/in/yourusername/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://github.com/yourusername"><img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
+
+<style>
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+@keyframes pulse {
+  0% { transform: scale(1); opacity:1; }
+  50% { transform: scale(1.05); opacity:0.8; }
+  100% { transform: scale(1); opacity:1; }
+}
+.card {
+  background: #1f1f1f;
+  color: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 15px;
+  width: 250px;
+  display: inline-block;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+.card img {
+  margin: 5px 2px;
+}
+</style>
 
 ## 🎓 Education
 - **Bachelor of Technology in Computer Science** | RGUKT RK Valley | CGPA: 8.25/10 (Jun 2022 - Present)
@@ -28,45 +54,35 @@
 
 **Platforms/Tools:** GitHub, Jupyter Notebook, Unity, Blender, MySQL, AWS, Azure
 
-## 🚀 Projects (Interactive Cards)
-<p align="center">
-  <img src="https://media.giphy.com/media/l0HlNQ03J5JxX6lva/giphy.gif" width="250" />
-</p>
-
+## 🚀 Projects (Animated Cards)
 <div align="center">
-<table>
-<tr>
-<td align="center">
-<p><b>Mood & Theme Based Story Generation</b></p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge" />
-<p>Real-time story generator that adapts to user mood and voice using HuggingFace Transformers & Coqui TTS.</p>
-</td>
-<td align="center">
-<p><b>Odd Number Game Using LeapHand</b></p>
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge" />
-<p>Interactive computer vision game detecting finger count; Leap Hand replicates gestures for odd numbers.</p>
-</td>
-</tr>
-<tr>
-<td align="center">
-<p><b>Financial Inclusion-Payment Reversal</b></p>
-<img src="https://img.shields.io/badge/ML-FF6F00?style=for-the-badge" />
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge" />
-<p>Full-stack ML prototype for fraud detection and transaction reversal; improves efficiency & reduces losses.</p>
-</td>
-<td align="center">
-<p><b>BrainInnovator Research Project</b></p>
-<img src="https://img.shields.io/badge/DeepLearning-8A2BE2?style=for-the-badge" />
-<p>Hands-on research in AI/ML models, Quantum Federated Learning, and multimodal learning implementation.</p>
-</td>
-</tr>
-</table>
+  <div class="card">
+    <h4>Mood & Theme Based Story Generation</h4>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge" />
+    <p>Real-time story generator adapting to user mood and voice using HuggingFace Transformers & Coqui TTS.</p>
+  </div>
+  <div class="card">
+    <h4>Odd Number Game Using LeapHand</h4>
+    <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge" />
+    <p>Interactive computer vision game detecting finger count; Leap Hand replicates gestures for odd numbers.</p>
+  </div>
+  <div class="card">
+    <h4>Financial Inclusion-Payment Reversal</h4>
+    <img src="https://img.shields.io/badge/ML-FF6F00?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge" />
+    <p>Full-stack ML prototype for fraud detection and transaction reversal; improves efficiency & reduces losses.</p>
+  </div>
+  <div class="card">
+    <h4>BrainInnovator Research Project</h4>
+    <img src="https://img.shields.io/badge/DeepLearning-8A2BE2?style=for-the-badge" />
+    <p>Hands-on research in AI/ML models, Quantum Federated Learning, and multimodal learning implementation.</p>
+  </div>
 </div>
 
-<p align="center">
-<a href="mailto:jahnavi.venkata777@gmail.com" style="display:inline-block;padding:10px 20px;margin-top:20px;background-color:#00BFFF;color:white;border-radius:8px;font-weight:bold;text-decoration:none;">📬 Connect With Me!</a>
+<p align="center" style="margin-top: 30px;">
+  <a href="mailto:jahnavi.venkata777@gmail.com" style="display:inline-block;padding:12px 25px;background-color:#00BFFF;color:white;border-radius:8px;font-weight:bold;text-decoration:none;font-size:16px;transition: transform 0.3s;">📬 Connect With Me!</a>
 </p>
 
 ## 🏆 Achievements & Volunteering
