@@ -1,4 +1,4 @@
-<!-- Animated GitHub Profile README with AI/ML Focus and Project Cards -->
+<!-- Animated GitHub Profile README with AI/ML Focus, Storytelling, and Project Cards -->
 
 <h1 align="center">
   <span style="display:inline-block; animation: bounce 1.5s infinite;">👋 Hello! I'm Nayanapalli Venkata Jahnavi</span>
@@ -28,7 +28,7 @@
   border-radius: 12px;
   padding: 20px;
   margin: 15px;
-  width: 250px;
+  width: 280px;
   display: inline-block;
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -54,30 +54,45 @@
 
 **Platforms/Tools:** GitHub, Jupyter Notebook, Unity, Blender, MySQL, AWS, Azure
 
-## 🚀 Projects (Animated Cards)
+## 🚀 Projects (Storytelling Cards)
 <div align="center">
   <div class="card">
     <h4>Mood & Theme Based Story Generation</h4>
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge" />
     <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge" />
-    <p>Real-time story generator adapting to user mood and voice using HuggingFace Transformers & Coqui TTS.</p>
+    <p><b>Problem:</b> Users want interactive stories that reflect their current mood.</p>
+    <p><b>Solution:</b> A real-time story generator using HuggingFace Transformers & Coqui TTS, adapting to mood and theme.</p>
+    <p><b>Lesson Learned:</b> Importance of integrating NLP with real-time audio synthesis and handling latency effectively.</p>
+    <p><b>Behind the Scenes:</b> Optimized model inference time and fine-tuned Transformer models to reduce errors in mood detection.</p>
   </div>
+
   <div class="card">
     <h4>Odd Number Game Using LeapHand</h4>
     <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge" />
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge" />
-    <p>Interactive computer vision game detecting finger count; Leap Hand replicates gestures for odd numbers.</p>
+    <p><b>Problem:</b> Create an engaging, gesture-based educational game.</p>
+    <p><b>Solution:</b> Implemented computer vision to detect finger counts; Leap Hand replicates odd gestures.</p>
+    <p><b>Lesson Learned:</b> Learned real-time gesture detection and the importance of robust error handling.</p>
+    <p><b>Behind the Scenes:</b> Addressed lighting and camera angle issues to ensure accurate finger recognition.</p>
   </div>
+
   <div class="card">
     <h4>Financial Inclusion-Payment Reversal</h4>
     <img src="https://img.shields.io/badge/ML-FF6F00?style=for-the-badge" />
     <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge" />
-    <p>Full-stack ML prototype for fraud detection and transaction reversal; improves efficiency & reduces losses.</p>
+    <p><b>Problem:</b> Reduce transaction loss due to errors or fraud.</p>
+    <p><b>Solution:</b> Full-stack ML app detects suspicious activities and reverses transactions efficiently.</p>
+    <p><b>Lesson Learned:</b> Learned full-stack integration of ML models with web frameworks and secure data handling.</p>
+    <p><b>Behind the Scenes:</b> Tuned ML algorithms to minimize false positives in fraud detection.</p>
   </div>
+
   <div class="card">
     <h4>BrainInnovator Research Project</h4>
     <img src="https://img.shields.io/badge/DeepLearning-8A2BE2?style=for-the-badge" />
-    <p>Hands-on research in AI/ML models, Quantum Federated Learning, and multimodal learning implementation.</p>
+    <p><b>Problem:</b> Explore advanced AI techniques like Quantum Federated Learning.</p>
+    <p><b>Solution:</b> Conducted hands-on research and implemented multimodal learning models.</p>
+    <p><b>Lesson Learned:</b> Gained experience in integrating cutting-edge AI techniques and research workflow.</p>
+    <p><b>Behind the Scenes:</b> Tackled model convergence issues and optimized data pipelines for federated environments.</p>
   </div>
 </div>
 
