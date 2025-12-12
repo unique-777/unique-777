@@ -6,21 +6,14 @@
 
 <p align="center">
   <em>Aspiring AI/ML Scientist • Deep Learning Explorer • Passionate Research Thinker</em><br>
-  <em>#slow and steady wins the race</em>
 </p>
 
 ---
 
 ## 🤝 Open to Meaningful Collaborations  
 
-<p align="center" style="font-size: 15px;">
-I’m deeply interested in researching **medical and healthcare technologies** to help  
-and support people in need. I love exploring new ideas,  
-neuroscience-inspired AI, and human-centered innovations.
-
-If you’re working on **impactful, research-driven, or experimental projects**,  
-I’d be happy to connect, collaborate, and grow together. 🌿
-</p>
+If you’re working on **research-driven, innovative, or experimental projects**, you’re always welcome to connect.  
+I’m excited to **collaborate, learn, and contribute** to meaningful work in AI, healthcare, neuroscience, and technology. 🌿
 
 <p align="center">
   <a href="mailto:yourmail@example.com">
@@ -32,21 +25,15 @@ I’d be happy to connect, collaborate, and grow together. 🌿
   </a>
 </p>
 
----
+
 
 ## 🌱 Rooted In Curiosity  
 
-Hola! I’m **Jahnavi**, a final-year **CSE B.Tech student** driven by a strong passion for  
-**AI, Machine Learning, and research-based innovation**.
+Hola! I’m Jahnavi, a final-year CSE B.Tech student passionate about AI, Machine Learning, and research-driven innovation.
+My curiosity brought me to the medical and healthcare domain, where technology can genuinely transform lives. I explore Deep Learning, Neuro-AI, cognitive systems, and human-centered AI, constantly learning, innovating, and creating solutions to help those in need.
 
-My natural curiosity pushed me toward the **medical and healthcare** domain, where  
-technology has the power to transform lives. I’m especially exploring  
-**Deep Learning, Neuro-AI, cognitive systems, and human-focused AI models**.
-
-I love diving deep into concepts and understanding things at their core.  
-Currently, I’m researching and experimenting with advanced **Deep Learning** techniques—  
-building myself steadily, one experiment at a time. 🌿✨  
-
+Guided by the belief that “slow and steady wins the race” and that hard work pays off, I’ve shaped myself into a persistent learner and researcher.
+I enjoy diving deep into concepts and am currently experimenting with advanced Deep Learning techniques, steadily building knowledge and impactful solutions, one step at a time. 🌿✨
 ---
 
 ## 🔬 Tech Stack — Tools From My Lab
@@ -88,19 +75,8 @@ UPI-based fraud detection & payment reversal system prototype.
 
 ---
 
-## 🌌 Vision  
 
-To build **AI systems that understand, support, and uplift humans**—especially in  
-neuroscience, cognition, mental health, and medical intelligence.
-
-Aiming to contribute to **medical AI labs**, research communities, and  
-innovations that matter.
-
----
-
-## 🌱  
 <p align="center">
   <em>Growing, learning, and exploring — one thoughtful step at a time.</em>
 </p>
 
----
