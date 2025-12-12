@@ -8,7 +8,7 @@
   <em>Aspiring AI/ML Scientist • Deep Learning Explorer • Passionate Research Thinker</em><br>
 </p>
 
----
+• • • • • • • • • • • • •
 
 ## 🤝 Open to Meaningful Collaborations  
 
@@ -16,11 +16,11 @@ If you’re working on **research-driven, innovative, or experimental projects**
 I’m excited to **collaborate, learn, and contribute** to meaningful work in AI, healthcare, neuroscience, and technology. 🌿
 
 <p align="center">
-  <a href="mailto:yourmail@example.com">
+  <a href="mailto:jahnavi.venkata777@gmail.com">
     <img src="https://img.icons8.com/color/48/gmail-new.png" width="40"/>
   </a>
   &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/your-profile">
+  <a href="https://www.linkedin.com/in/nayanapalli-venkata-jahnavi-226417258/">
     <img src="https://img.icons8.com/color/48/linkedin.png" width="40"/>
   </a>
 </p>
@@ -34,7 +34,9 @@ My curiosity brought me to the medical and healthcare domain, where technology c
 
 Guided by the belief that “slow and steady wins the race” and that hard work pays off, I’ve shaped myself into a persistent learner and researcher.
 I enjoy diving deep into concepts and am currently experimenting with advanced Deep Learning techniques, steadily building knowledge and impactful solutions, one step at a time. 🌿✨
----
+
+• • • • • • • • • • • • •
+
 
 ## 🔬 Tech Stack — Tools From My Lab
 
@@ -60,7 +62,8 @@ I enjoy diving deep into concepts and am currently experimenting with advanced D
 
 </p>
 
----
+• • • • • • • • • • • • •
+
 
 ## 🧪 Featured Projects  
 
