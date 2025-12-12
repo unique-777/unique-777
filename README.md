@@ -3,7 +3,6 @@
 <h1 align="center">
   👋 Hola!! This is <strong>Jahnavi</strong>  
   <br>
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="180"/>
 </h1>
 
 <p align="center">
@@ -15,9 +14,6 @@
 ---
 
 ## 🧠 About Me — A Neuro-Inspired Journey  
-<div align="center">
-<img src="https://media.giphy.com/media/11G9W2lUKVqf20/giphy.gif" width="200"/>
-</div>
 
 I am deeply passionate about **medical research**, especially in areas connected to  
 **neuroscience, cognition, human well-being, and AI-powered medical systems**.
