@@ -1,4 +1,4 @@
-<!-- 🌿✨ Neuro-Inspired GitHub Profile README — Jahnavi -->
+<!-- 🌿✨  GitHub Profile README — Jahnavi -->
 
 <h1 align="center">
   👋 Hola!! This is <strong>Jahnavi</strong>  
@@ -6,24 +6,22 @@
 </h1>
 
 <p align="center">
-  <em>Aspiring Medical Researcher • Deep Learning Explorer • Math Lover</em>
+  <em>Aspiring AI/ML SCIENTIST • Deep Learning Explorer • Math Lover</em>
   <br>
   <em>#slow and steady wins the race</em>
 </p>
 
 ---
 
-## 🧠 About Me — A Neuro-Inspired Journey  
+## Rooted In Curiosity:  
+Hola! I’m Jahnavi, currently pursuing my B.Tech final year in Computer Science Engineering, and I’m deeply passionate about the world of AI and Machine Learning.
 
-I am deeply passionate about **medical research**, especially in areas connected to  
-**neuroscience, cognition, human well-being, and AI-powered medical systems**.
+Research has always felt natural to me, and that curiosity led me toward the medical and healthcare domain, where technology can genuinely change lives. I am particularly interested in exploring how AI, deep learning, neuroscience-inspired systems, and intelligent models can support real human needs and improve well-being.
 
-I want to explore how **technology can support real human needs**, from hospital systems  
-to mental health AI assistants and neuro-emotional understanding.
+I enjoy understanding concepts in a deep and detailed manner, and I am currently researching and diving into advanced Deep Learning techniques, striving to gain strong foundational and practical knowledge in the AI & ML ecosystem.
 
-I love learning everything in a **deep, detailed manner**, and currently exploring  
-**Deep Learning, Neuro-AI, and human-centric tech**.
-
+With a mindset shaped by consistency, curiosity, and the belief that “slow and steady wins the race,”
+🌱I continue learning, exploring, and building—one experiment at a time.
 ---
 
 ## 🔬 Tech Stack — Tools Inside My Lab  
@@ -54,15 +52,11 @@ I love learning everything in a **deep, detailed manner**, and currently explori
 🚀 **Explorix – Smart Travel AI (NLP + ML)**  
 Real-time assistant for weather, safety scoring, mood detection, and personalized recommendations.
 
-🧠 **Echoes of the Ancients – Emotion-Driven Puzzle Game**  
-A psychology-based mood-improving game with anime characters, puzzles, emotion analysis & ML.
+🧠 **real time voice cloning story generator**  
+A story teller and generator with our dear ones voices by using YOLOV5,still experimenting....in short span of time it will be available.
 
-🩺 **Medical AI Experiments (Self Research)**  
-• medical imaging  
-• neuro-inspired deep learning  
-• human emotion understanding  
-• cognitive & healthcare AI systems  
-
+🩺 **financial inclusion-payment reversal prototype**  
+A payment reversal and fraud detection prototype done based on online upi systems we're currently using...
 ---
 
 ## 🤝 Ready to Collaborate  
@@ -95,10 +89,7 @@ Aiming for research in **medical AI labs**, and long-term contribution to
 
 ---
 
-## 🌱 Motto  
-> **“Slow and steady wins the race.”**  
-> **“Mathematics is my superpower.”**
-
+## 🌱 
 ---
 
 ## 📬 Contact  
