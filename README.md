@@ -1,30 +1,56 @@
-<!-- 🌿✨  GitHub Profile README — Jahnavi -->
+<!-- 🌿✨ GitHub Profile README — Jahnavi -->
 
-<h1 align="center">
-  👋 Hola!! This is <strong>Jahnavi</strong>  
-  <br>
+<h1 align="center" style="font-family: 'Georgia', serif; font-size: 48px; font-weight: 600; letter-spacing: 1px;">
+  ✨ Hola! I’m <strong style="font-family: 'Times New Roman', serif;">Jahnavi</strong> ✨
 </h1>
 
 <p align="center">
-  <em>Aspiring AI/ML SCIENTIST • Deep Learning Explorer • Math Lover</em>
-  <br>
+  <em>Aspiring AI/ML Scientist • Deep Learning Explorer • Passionate Research Thinker</em><br>
   <em>#slow and steady wins the race</em>
 </p>
 
 ---
 
-## Rooted In Curiosity:  
-Hola! I’m Jahnavi, currently pursuing my B.Tech final year in Computer Science Engineering, and I’m deeply passionate about the world of AI and Machine Learning.
+## 🤝 Open to Meaningful Collaborations  
 
-Research has always felt natural to me, and that curiosity led me toward the medical and healthcare domain, where technology can genuinely change lives. I am particularly interested in exploring how AI, deep learning, neuroscience-inspired systems, and intelligent models can support real human needs and improve well-being.
+<p align="center" style="font-size: 15px;">
+I’m deeply interested in researching **medical and healthcare technologies** to help  
+and support people in need. I love exploring new ideas,  
+neuroscience-inspired AI, and human-centered innovations.
 
-I enjoy understanding concepts in a deep and detailed manner, and I am currently researching and diving into advanced Deep Learning techniques, striving to gain strong foundational and practical knowledge in the AI & ML ecosystem.
+If you’re working on **impactful, research-driven, or experimental projects**,  
+I’d be happy to connect, collaborate, and grow together. 🌿
+</p>
 
-With a mindset shaped by consistency, curiosity, and the belief that “slow and steady wins the race,”
-🌱I continue learning, exploring, and building—one experiment at a time.
+<p align="center">
+  <a href="mailto:yourmail@example.com">
+    <img src="https://img.icons8.com/color/48/gmail-new.png" width="40"/>
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/your-profile">
+    <img src="https://img.icons8.com/color/48/linkedin.png" width="40"/>
+  </a>
+</p>
+
 ---
 
-## 🔬 Tech Stack — Tools Inside My Lab  
+## 🌱 Rooted In Curiosity  
+
+Hola! I’m **Jahnavi**, a final-year **CSE B.Tech student** driven by a strong passion for  
+**AI, Machine Learning, and research-based innovation**.
+
+My natural curiosity pushed me toward the **medical and healthcare** domain, where  
+technology has the power to transform lives. I’m especially exploring  
+**Deep Learning, Neuro-AI, cognitive systems, and human-focused AI models**.
+
+I love diving deep into concepts and understanding things at their core.  
+Currently, I’m researching and experimenting with advanced **Deep Learning** techniques—  
+building myself steadily, one experiment at a time. 🌿✨  
+
+---
+
+## 🔬 Tech Stack — Tools From My Lab
+
 <p align="center">
 
 <!-- Programming -->
@@ -44,62 +70,37 @@ With a mindset shaped by consistency, curiosity, and the belief that “slow and
 <!-- Tools -->
 <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge" />
 <img src="https://img.shields.io/badge/VSCode-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge" />
+
 </p>
 
 ---
 
 ## 🧪 Featured Projects  
+
 🚀 **Explorix – Smart Travel AI (NLP + ML)**  
-Real-time assistant for weather, safety scoring, mood detection, and personalized recommendations.
+Intelligent assistant for weather insights, safety scoring, and emotional recommendations.
 
-🧠 **real time voice cloning story generator**  
-A story teller and generator with our dear ones voices by using YOLOV5,still experimenting....in short span of time it will be available.
+🧠 **Real-Time Voice Cloning Story Generator**  
+A storytelling AI using YOLOv5 + voice cloning to create personalized story narration.
 
-🩺 **financial inclusion-payment reversal prototype**  
-A payment reversal and fraud detection prototype done based on online upi systems we're currently using...
----
-
-## 🤝 Ready to Collaborate  
-I am **ready to work and collaborate with anyone interested in medical research, neuroscience, AI for healthcare, or cognitive/emotional technologies**.
-
-If you're interested in **research, innovation, or building human-centered AI**,  
-I’d love to connect and create meaningful projects together.
-
----
-
-## 📊 GitHub Stats  
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=neon-dark" height="160"/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight" height="160"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight" height="160"/>
-
-</div>
+🩺 **Financial Inclusion – Payment Reversal Prototype**  
+UPI-based fraud detection & payment reversal system prototype.
 
 ---
 
 ## 🌌 Vision  
-To build **AI systems that understand humans**, especially in  
-**neuroscience, cognition, mental health, and medical technology**.
 
-Aiming for research in **medical AI labs**, and long-term contribution to  
-**human-centric, ethical, scientific innovation**.
+To build **AI systems that understand, support, and uplift humans**—especially in  
+neuroscience, cognition, mental health, and medical intelligence.
+
+Aiming to contribute to **medical AI labs**, research communities, and  
+innovations that matter.
 
 ---
 
-## 🌱 
----
-
-## 📬 Contact  
+## 🌱  
 <p align="center">
-
-📧 **Email:** yourmail@example.com  
-🔗 **LinkedIn:** https://www.linkedin.com/in/your-profile  
-
-<img src="https://media.giphy.com/media/Q7SKqn3G97xpmfSOvG/giphy.gif" width="160"/>
-
+  <em>Growing, learning, and exploring — one thoughtful step at a time.</em>
 </p>
 
 ---
