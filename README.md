@@ -48,6 +48,8 @@ I enjoy diving deep into concepts and am currently experimenting with advanced D
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=for-the-badge" />
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=for-the-badge" />
 <img src="https://img.shields.io/badge/Transformers-000000?logo=huggingface&logoColor=yellow&style=for-the-badge" />
+<img src="https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=white&style=for-the-badge" />
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?logo=scikit-learn&logoColor=white&style=for-the-badge" />
 
 <!-- Web Dev -->
 <img src="https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge" />
@@ -57,6 +59,7 @@ I enjoy diving deep into concepts and am currently experimenting with advanced D
 <!-- Tools -->
 <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge" />
 <img src="https://img.shields.io/badge/VSCode-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge" />
+
 
 </p>
 
