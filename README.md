@@ -1,85 +1,276 @@
-<!-- 🌿✨ GitHub Profile README — Jahnavi -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name | Research Portfolio</title>
 
-<h1 align="center" style="font-family: 'Georgia', serif; font-size: 48px; font-weight: 600; letter-spacing: 1px;">
-  ✨ Hola! I’m <strong style="font-family: 'Times New Roman', serif;">Jahnavi</strong> ✨
-</h1>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 
-<p align="center">
-  <em>Aspiring AI/ML Scientist • Deep Learning Explorer • Passionate Research Thinker</em><br>
-</p>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Inter', sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
 
-## 🤝 Open to Meaningful Collaborations  
+/* Animated Background */
+body::before {
+    content: "";
+    position: fixed;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle at 20% 20%, #2563eb33, transparent),
+                radial-gradient(circle at 80% 80%, #9333ea33, transparent);
+    animation: move 18s infinite alternate;
+    z-index: -1;
+}
 
-If you’re working on **research-driven, innovative, or experimental projects**, you’re always welcome to connect.  
-I’m excited to **collaborate, learn, and contribute** to meaningful work in AI, healthcare, neuroscience, and technology. 🌿
+@keyframes move {
+    from { transform: translate(-10%, -10%); }
+    to { transform: translate(10%, 10%); }
+}
 
-<p align="center">
-  <a href="mailto:jahnavi.venkata777@gmail.com">
-    <img src="https://img.icons8.com/color/48/gmail-new.png" width="40"/>
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/nayanapalli-venkata-jahnavi-226417258/">
-    <img src="https://img.icons8.com/color/48/linkedin.png" width="40"/>
-  </a>
-</p>
+header {
+    text-align: center;
+    padding: 100px 20px 60px;
+}
 
+header h1 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
 
+header p {
+    font-size: 18px;
+    color: #94a3b8;
+}
 
-## 🌱 Rooted In Curiosity  
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
 
-Hola! I’m Jahnavi, a final-year CSE B.Tech student passionate about AI, Machine Learning, and research-driven innovation.
-My curiosity brought me to the medical and healthcare domain, where technology can genuinely transform lives. I explore Deep Learning, Neuro-AI, cognitive systems, and human-centered AI, constantly learning, innovating, and creating solutions to help those in need.
+nav a {
+    text-decoration: none;
+    color: #e2e8f0;
+    font-weight: 500;
+    transition: 0.3s;
+}
 
-Guided by the belief that “slow and steady wins the race” and that hard work pays off, I’ve shaped myself into a persistent learner and researcher.
-I enjoy diving deep into concepts and am currently experimenting with advanced Deep Learning techniques, steadily building knowledge and impactful solutions, one step at a time. 🌿✨
+nav a:hover {
+    color: #38bdf8;
+}
 
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 70px 25px;
+}
 
+section h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    border-left: 4px solid #38bdf8;
+    padding-left: 15px;
+}
 
-## 🔬 Tech Stack — Tools From My Lab
+.card {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+    transition: 0.4s;
+    opacity: 0;
+    transform: translateY(40px);
+}
 
-<p align="center">
+.card:hover {
+    transform: translateY(-5px);
+}
 
-<!-- Programming -->
-<img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" />
+ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
 
-<!-- ML & AI -->
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white&style=for-the-badge" />
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white&style=for-the-badge" />
-<img src="https://img.shields.io/badge/Transformers-000000?logo=huggingface&logoColor=yellow&style=for-the-badge" />
-<img src="https://img.shields.io/badge/Keras-D00000?logo=keras&logoColor=white&style=for-the-badge" />
-<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?logo=scikit-learn&logoColor=white&style=for-the-badge" />
+.timeline {
+    border-left: 2px solid #334155;
+    padding-left: 20px;
+}
 
-<!-- Web Dev -->
-<img src="https://img.shields.io/badge/HTML-E34F26?logo=html5&logoColor=white&style=for-the-badge" />
-<img src="https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=white&style=for-the-badge" />
-<img src="https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white&style=for-the-badge" />
+.timeline-item {
+    margin-bottom: 25px;
+}
 
-<!-- Tools -->
-<img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge" />
-<img src="https://img.shields.io/badge/VSCode-007ACC?logo=visualstudiocode&logoColor=white&style=for-the-badge" />
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
 
+.skill-tag {
+    background: #334155;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+}
 
-</p>
+.skill-tag:hover {
+    background: #38bdf8;
+    color: #0f172a;
+}
 
+.contact a {
+    color: #38bdf8;
+    text-decoration: none;
+}
 
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    color: #64748b;
+}
 
-## 🧪 Featured Projects  
+@media(max-width: 768px) {
+    header h1 {
+        font-size: 36px;
+    }
+}
+</style>
+</head>
 
-🚀 **Explorix – Smart Travel AI (NLP + ML)**  
-Intelligent assistant for weather insights, safety scoring, and emotional recommendations.
+<body>
 
-🧠 **Real-Time Voice Cloning Story Generator**  
-A storytelling AI using YOLOv5 + voice cloning to create personalized story narration.
+<header>
+    <h1>Your Name</h1>
+    <p>Machine Learning Researcher | Computer Vision | AI Systems</p>
+</header>
 
-🩺 **Financial Inclusion – Payment Reversal Prototype**  
-UPI-based fraud detection & payment reversal system prototype.
+<nav>
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
 
----
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am a research student focused on Machine Learning, Computer Vision,
+            and scalable AI systems. My work involves designing intelligent models
+            for real-world applications including facial recognition, clustering,
+            deep learning pipelines, and AutoML frameworks.
+        </p>
+    </div>
+</section>
 
+<section id="research">
+    <h2>Research Interests</h2>
+    <div class="card">
+        <ul>
+            <li>Deep Learning & Representation Learning</li>
+            <li>Face Recognition & Embedding Systems</li>
+            <li>Meta-Learning & AutoML</li>
+            <li>Scalable AI Architectures</li>
+            <li>Medical AI & Secure ML Systems</li>
+        </ul>
+    </div>
+</section>
 
-<p align="center">
-  <em>Growing, learning, and exploring — one thoughtful step at a time.</em>
-</p>
+<section id="projects">
+    <h2>Selected Projects</h2>
 
+    <div class="card">
+        <h3>Face Clustering Pipeline</h3>
+        <p>Developed embedding-based clustering using RetinaFace, FaceNet and HDBSCAN for automated identity grouping across videos.</p>
+    </div>
+
+    <div class="card">
+        <h3>AutoML Framework</h3>
+        <p>Implemented automated model selection and hyperparameter tuning using AutoKeras for optimal performance.</p>
+    </div>
+
+    <div class="card">
+        <h3>Deep Image Restoration</h3>
+        <p>Designed neural networks for denoising and super-resolution in biomedical and space imaging domains.</p>
+    </div>
+
+</section>
+
+<section id="experience">
+    <h2>Research Experience</h2>
+    <div class="card timeline">
+        <div class="timeline-item">
+            <strong>Computer Vision Intern</strong><br>
+            SPCV Lab – IIT Tirupati<br>
+            Jan 2026 – Present<br>
+            Working on object recognition and advanced face clustering systems.
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="card">
+        <div class="skills">
+            <div class="skill-tag">Python</div>
+            <div class="skill-tag">PyTorch</div>
+            <div class="skill-tag">TensorFlow</div>
+            <div class="skill-tag">OpenCV</div>
+            <div class="skill-tag">Scikit-learn</div>
+            <div class="skill-tag">AutoML</div>
+            <div class="skill-tag">HDBSCAN</div>
+            <div class="skill-tag">Git</div>
+            <div class="skill-tag">Linux</div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card contact">
+        <p>Email: yourmail@example.com</p>
+        <p>GitHub: <a href="#">github.com/yourprofile</a></p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Your Name | Research Portfolio
+</footer>
+
+<script>
+/* Fade-in Animation on Scroll */
+const cards = document.querySelectorAll('.card');
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.style.opacity = 1;
+            entry.target.style.transform = "translateY(0)";
+        }
+    });
+}, { threshold: 0.2 });
+
+cards.forEach(card => observer.observe(card));
+</script>
+
+</body>
+</html>
