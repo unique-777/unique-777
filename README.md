@@ -3,196 +3,218 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Nayanapalli Venkata Jahnavi | Research Portfolio</title>
+<title>Your Name | AI Research Portfolio</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- Font Awesome Icons -->
+<script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
 
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
 body{
-background:#0f2027;
-color:white;
-overflow-x:hidden;
+    font-family:'Poppins',sans-serif;
+    background:#0a0f1f;
+    color:#e6f1ff;
 }
 
 /* Animated AI Background */
 body::before{
-content:"";
-position:fixed;
-width:200%;
-height:200%;
-background:
-radial-gradient(circle at 25% 30%,#00f5a0,transparent),
-radial-gradient(circle at 75% 70%,#00c3ff,transparent);
-animation:move 20s linear infinite;
-opacity:0.1;
-z-index:-1;
+    content:"";
+    position:fixed;
+    width:100%;
+    height:100%;
+    background: radial-gradient(circle at 20% 30%, #00f2ff22 0%, transparent 40%),
+                radial-gradient(circle at 80% 70%, #8a2be222 0%, transparent 40%);
+    animation: move 10s infinite alternate;
+    z-index:-1;
 }
+
 @keyframes move{
-0%{transform:translate(0,0);}
-50%{transform:translate(-20%,-20%);}
-100%{transform:translate(0,0);}
+    from{transform:translateY(-20px);}
+    to{transform:translateY(20px);}
 }
 
-header{
-text-align:center;
-padding:40px 20px;
-border-bottom:1px solid #00f5a0;
-}
-header h1{font-size:30px;}
-header h3{color:#00f5a0;margin-top:10px;font-weight:400;}
-
-.container{
-max-width:1100px;
-margin:auto;
-padding:40px 20px;
+section{
+    padding:80px 10%;
 }
 
-.section{margin-bottom:50px;}
-.section h2{
-color:#00f5a0;
-margin-bottom:15px;
-border-bottom:1px solid #00f5a0;
-padding-bottom:5px;
+h1,h2{
+    font-family:'Orbitron',sans-serif;
+    color:#00f2ff;
+    margin-bottom:20px;
 }
-.section p, .section li{
-font-size:14px;
-line-height:24px;
-opacity:0.9;
+
+.card{
+    background:#11182e;
+    padding:20px;
+    margin:20px 0;
+    border-radius:12px;
+    box-shadow:0 0 20px #00f2ff22;
+    transition:0.3s;
 }
-ul{padding-left:20px;}
 
-.icon{color:#00f5a0;margin-right:8px;}
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 25px #00f2ff88;
+}
 
-/* Skill Bars */
-.skill{margin-bottom:15px;}
+/* Skills Bar */
+.skill{
+    margin:15px 0;
+}
+
+.bar{
+    background:#1c2545;
+    border-radius:20px;
+    overflow:hidden;
+}
+
 .progress{
-background:#1f1f1f;
-border-radius:20px;
-overflow:hidden;
-}
-.progress-bar{
-height:8px;
-background:#00f5a0;
-width:0;
-animation:load 2s forwards;
-}
-@keyframes load{100%{width:85%;}}
-
-/* Contact Grid */
-.contact-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:15px;
-}
-.contact-box{
-background:rgba(0,0,0,0.5);
-padding:15px;
-border-radius:8px;
+    height:8px;
+    background:#00f2ff;
+    width:0;
+    animation:load 2s forwards;
 }
 
-/* Footer */
+@keyframes load{
+    to{width:90%;}
+}
+
 footer{
-text-align:center;
-padding:20px;
-opacity:0.6;
-font-size:12px;
-border-top:1px solid #00f5a0;
+    text-align:center;
+    padding:30px;
+    background:#11182e;
 }
-a{color:#00f5a0;text-decoration:none;}
-a:hover{text-decoration:underline;}
+a{
+    color:#00f2ff;
+    text-decoration:none;
+}
 </style>
 </head>
 
 <body>
 
-<header>
-<h1>Nayanapalli Venkata Jahnavi</h1>
-<h3>AI/ML Engineering Aspirant | Research Portfolio</h3>
-</header>
+<!-- HERO SECTION -->
+<section>
+    <h1>🤖 Your Name</h1>
+    <p>AI / ML Research Enthusiast | Deep Learning | Computer Vision | NLP</p>
+    <p>
+        📍 Location | 
+        📧 yourmail@gmail.com | 
+        🔗 <a href="#">LinkedIn</a> | 
+        💻 <a href="#">GitHub</a>
+    </p>
+</section>
 
-<div class="container">
+<!-- ABOUT -->
+<section>
+    <h2>🧠 About Me</h2>
+    <div class="card">
+        Research-driven AI Engineer focused on intelligent systems, scalable ML pipelines, and impactful research solutions. Seeking international internships, MS/MTech, and research collaborations.
+    </div>
+</section>
 
-<!-- Introduction -->
-<div class="section">
-<h2><i class="fas fa-user icon"></i>Introduction</h2>
-<p>Research-oriented AI/ML student specializing in Computer Vision, Deep Learning, and scalable intelligent systems. Actively seeking international research internships, MS/MTech opportunities, and applied AI roles.</p>
-</div>
+<!-- EDUCATION -->
+<section>
+    <h2>🎓 Education</h2>
+    <div class="card">
+        <strong>B.Tech in Computer Science</strong><br>
+        University Name | 2022–2026<br>
+        CGPA: 9.1/10
+    </div>
+</section>
 
-<!-- Education -->
-<div class="section">
-<h2><i class="fas fa-graduation-cap icon"></i>Education</h2>
-<p><strong>RGUKT RK Valley</strong> – B.Tech Computer Science (2022–Present) | CGPA: 8.35/10</p>
-<p><strong>RGUKT RK Valley</strong> – PUC MPC (2020–2022) | CGPA: 9.34/10</p>
-</div>
+<!-- PROJECTS -->
+<section>
+    <h2>🚀 Research Projects</h2>
 
-<!-- Research & Internships -->
-<div class="section">
-<h2><i class="fas fa-briefcase icon"></i>Research & Internships</h2>
-<ul>
-<li><strong>Research Intern – SPCV Lab, IIT Tirupati (2026)</strong> | Computer Vision & Object Recognition.</li>
-<li><strong>Aurora Rising Summer School – IIT Gandhinagar (2025)</strong> | Robotics & Vision Systems.</li>
-<li><strong>Microsoft AI Azure Internship (2025)</strong> | AI & Cloud ML Services.</li>
-<li><strong>Data Science Intern – SURE Trust (2024)</strong> | Supervised Learning & Data Processing.</li>
-<li><strong>AI/ML Intern – Extion Infotech (2024)</strong> | Quantum Federated & Multimodal Learning.</li>
-</ul>
-</div>
+    <div class="card">
+        <strong>AI Medical Diagnosis System</strong><br>
+        Deep Learning, CNN, PyTorch<br>
+        Built intelligent disease prediction model with 94% accuracy.
+    </div>
 
-<!-- Projects -->
-<div class="section">
-<h2><i class="fas fa-code icon"></i>Research Projects</h2>
-<ul>
-<li><strong>Mood-Based Story Generation with Voice Cloning</strong> – Django + Transformers + Coqui TTS.</li>
-<li><strong>Odd Number Game using LeapHand</strong> – OpenCV-based gesture recognition system.</li>
-<li><strong>Fraud Detection & Payment Reversal using ML</strong> – Django + ML real-time fraud detection.</li>
-</ul>
-</div>
+    <div class="card">
+        <strong>Autonomous Vision System</strong><br>
+        Computer Vision, OpenCV<br>
+        Real-time object detection and tracking system.
+    </div>
 
-<!-- Skills -->
-<div class="section">
-<h2><i class="fas fa-brain icon"></i>Technical Skills</h2>
+</section>
 
-<div class="skill">Python<div class="progress"><div class="progress-bar"></div></div></div>
-<div class="skill">Machine Learning<div class="progress"><div class="progress-bar"></div></div></div>
-<div class="skill">Computer Vision<div class="progress"><div class="progress-bar"></div></div></div>
-<div class="skill">Deep Learning<div class="progress"><div class="progress-bar"></div></div></div>
+<!-- INTERNSHIPS -->
+<section>
+    <h2>🏢 Internships</h2>
+    <div class="card">
+        <strong>AI Research Intern</strong><br>
+        Organization Name | 2025<br>
+        Worked on NLP-based sentiment modeling and deployment.
+    </div>
+</section>
 
-</div>
+<!-- WORK EXPERIENCE -->
+<section>
+    <h2>💼 Work Experience</h2>
+    <div class="card">
+        <strong>ML Developer</strong><br>
+        Company Name | 2024–Present<br>
+        Designed scalable ML pipelines and automated workflows.
+    </div>
+</section>
 
-<!-- GitHub Graph -->
-<div class="section">
-<h2><i class="fab fa-github icon"></i>GitHub Activity</h2>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=unique-777&theme=github-dark" width="100%">
-</div>
+<!-- SKILLS -->
+<section>
+    <h2>🛠 Technical Skills</h2>
 
-<!-- Interests -->
-<div class="section">
-<h2><i class="fas fa-lightbulb icon"></i>Research Interests</h2>
-<p>Deep Learning • Representation Learning • Computer Vision • NLP • AutoML • AI for Healthcare • Scalable AI Systems</p>
-</div>
+    <div class="skill">
+        Python
+        <div class="bar"><div class="progress"></div></div>
+    </div>
 
-<!-- Collaborations -->
-<div class="section">
-<h2><i class="fas fa-handshake icon"></i>Collaborations</h2>
-<p>Open to interdisciplinary research collaborations, AI projects, publications, and innovative technology initiatives.</p>
-</div>
+    <div class="skill">
+        Machine Learning
+        <div class="bar"><div class="progress"></div></div>
+    </div>
 
-<!-- Contact -->
-<div class="section">
-<h2><i class="fas fa-envelope icon"></i>Contact</h2>
-<div class="contact-grid">
-<div class="contact-box"><i class="fas fa-location-dot icon"></i> Kadapa, Andhra Pradesh</div>
-<div class="contact-box"><i class="fas fa-envelope icon"></i> <a href="mailto:jahnavi.venkata777@gmail.com">jahnavi.venkata777@gmail.com</a></div>
-<div class="contact-box"><i class="fab fa-linkedin icon"></i> <a href="#">LinkedIn</a></div>
-<div class="contact-box"><i class="fab fa-github icon"></i> <a href="https://github.com/unique-777">GitHub</a></div>
-</div>
-</div>
+    <div class="skill">
+        Deep Learning
+        <div class="bar"><div class="progress"></div></div>
+    </div>
 
-</div>
+</section>
+
+<!-- GITHUB GRAPH -->
+<section>
+    <h2>📊 GitHub Activity</h2>
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=yourusername&theme=react-dark" width="100%">
+</section>
+
+<!-- INTERESTS -->
+<section>
+    <h2>🌍 Research Interests</h2>
+    <div class="card">
+        Artificial Intelligence • Representation Learning • Generative AI • AI for Healthcare • Scalable Systems
+    </div>
+</section>
+
+<!-- COLLABORATIONS -->
+<section>
+    <h2>🤝 Collaborations</h2>
+    <div class="card">
+        Open to international research internships, MS/MTech opportunities, and interdisciplinary AI collaborations.
+    </div>
+</section>
 
 <footer>
-© 2026 Nayanapalli Venkata Jahnavi | AI Research Portfolio
+    © 2026 Your Name | AI Research Portfolio
 </footer>
 
 </body>
