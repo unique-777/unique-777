@@ -3,273 +3,394 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Your Name | Research Portfolio</title>
+<title>Your Name | AI Research Portfolio</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 
 <style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
-body {
-    font-family: 'Inter', sans-serif;
-    background: #0f172a;
-    color: #e2e8f0;
-    scroll-behavior: smooth;
-    overflow-x: hidden;
+body{
+font-family:'Inter',sans-serif;
+background:#0b1120;
+color:#e2e8f0;
+overflow-x:hidden;
+scroll-behavior:smooth;
 }
 
-/* Animated Background */
-body::before {
-    content: "";
-    position: fixed;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle at 20% 20%, #2563eb33, transparent),
-                radial-gradient(circle at 80% 80%, #9333ea33, transparent);
-    animation: move 18s infinite alternate;
-    z-index: -1;
+/* Canvas Background */
+canvas{
+position:fixed;
+top:0;
+left:0;
+z-index:-1;
 }
 
-@keyframes move {
-    from { transform: translate(-10%, -10%); }
-    to { transform: translate(10%, 10%); }
+/* Navbar */
+nav{
+position:fixed;
+top:0;
+width:100%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:rgba(15,23,42,0.7);
+backdrop-filter:blur(10px);
+z-index:1000;
 }
 
-header {
-    text-align: center;
-    padding: 100px 20px 60px;
+nav h2{
+font-weight:700;
+color:#38bdf8;
 }
 
-header h1 {
-    font-size: 50px;
-    font-weight: 800;
-    margin-bottom: 15px;
+nav ul{
+display:flex;
+list-style:none;
+gap:30px;
 }
 
-header p {
-    font-size: 18px;
-    color: #94a3b8;
+nav a{
+text-decoration:none;
+color:#cbd5e1;
+transition:0.3s;
+font-weight:500;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 35px;
-    padding-bottom: 50px;
-    flex-wrap: wrap;
+nav a:hover{
+color:#38bdf8;
 }
 
-nav a {
-    text-decoration: none;
-    color: #e2e8f0;
-    font-weight: 500;
-    transition: 0.3s;
+/* Hero */
+.hero{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:0 20px;
 }
 
-nav a:hover {
-    color: #38bdf8;
+.hero h1{
+font-size:60px;
+font-weight:800;
+margin-bottom:20px;
 }
 
-section {
-    max-width: 1000px;
-    margin: auto;
-    padding: 70px 25px;
+.hero p{
+font-size:20px;
+color:#94a3b8;
+max-width:700px;
+margin-bottom:30px;
 }
 
-section h2 {
-    font-size: 30px;
-    margin-bottom: 30px;
-    border-left: 4px solid #38bdf8;
-    padding-left: 15px;
+.metrics{
+display:flex;
+gap:50px;
+margin-top:20px;
+flex-wrap:wrap;
+justify-content:center;
 }
 
-.card {
-    background: #1e293b;
-    padding: 25px;
-    border-radius: 12px;
-    margin-bottom: 25px;
-    transition: 0.4s;
-    opacity: 0;
-    transform: translateY(40px);
+.metric{
+text-align:center;
 }
 
-.card:hover {
-    transform: translateY(-5px);
+.metric h3{
+font-size:30px;
+color:#38bdf8;
 }
 
-ul {
-    padding-left: 20px;
-    line-height: 1.8;
+section{
+padding:100px 10%;
+max-width:1300px;
+margin:auto;
 }
 
-.timeline {
-    border-left: 2px solid #334155;
-    padding-left: 20px;
+h2{
+font-size:32px;
+margin-bottom:40px;
+position:relative;
 }
 
-.timeline-item {
-    margin-bottom: 25px;
+h2::after{
+content:"";
+position:absolute;
+left:0;
+bottom:-10px;
+width:60px;
+height:3px;
+background:#38bdf8;
 }
 
-.skills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
+/* Cards */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
 }
 
-.skill-tag {
-    background: #334155;
-    padding: 8px 14px;
-    border-radius: 20px;
-    font-size: 14px;
-    transition: 0.3s;
+.card{
+background:#111827;
+padding:30px;
+border-radius:15px;
+transition:0.4s;
+border:1px solid rgba(255,255,255,0.05);
 }
 
-.skill-tag:hover {
-    background: #38bdf8;
-    color: #0f172a;
+.card:hover{
+transform:translateY(-8px);
+box-shadow:0 20px 40px rgba(0,0,0,0.4);
+border:1px solid #38bdf8;
 }
 
-.contact a {
-    color: #38bdf8;
-    text-decoration: none;
+.card h3{
+margin-bottom:15px;
+color:#38bdf8;
 }
 
-footer {
-    text-align: center;
-    padding: 40px 20px;
-    color: #64748b;
+/* Timeline */
+.timeline{
+border-left:2px solid #334155;
+padding-left:30px;
 }
 
-@media(max-width: 768px) {
-    header h1 {
-        font-size: 36px;
-    }
+.timeline-item{
+margin-bottom:40px;
+position:relative;
+}
+
+.timeline-item::before{
+content:"";
+position:absolute;
+left:-41px;
+top:5px;
+width:15px;
+height:15px;
+background:#38bdf8;
+border-radius:50%;
+}
+
+/* Skills */
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+}
+
+.skill{
+background:#1e293b;
+padding:10px 18px;
+border-radius:30px;
+font-size:14px;
+transition:0.3s;
+}
+
+.skill:hover{
+background:#38bdf8;
+color:#0b1120;
+}
+
+/* Footer */
+footer{
+text-align:center;
+padding:50px 20px;
+color:#64748b;
+}
+
+/* Responsive */
+@media(max-width:768px){
+.hero h1{
+font-size:40px;
+}
+nav{
+padding:20px;
+}
+section{
+padding:80px 20px;
+}
 }
 </style>
 </head>
-
 <body>
 
-<header>
-    <h1>Your Name</h1>
-    <p>Machine Learning Researcher | Computer Vision | AI Systems</p>
-</header>
+<canvas id="network"></canvas>
 
 <nav>
-    <a href="#about">About</a>
-    <a href="#research">Research</a>
-    <a href="#projects">Projects</a>
-    <a href="#experience">Experience</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
+<h2>YourName</h2>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
 </nav>
 
-<section id="about">
-    <h2>About Me</h2>
-    <div class="card">
-        <p>
-            I am a research student focused on Machine Learning, Computer Vision,
-            and scalable AI systems. My work involves designing intelligent models
-            for real-world applications including facial recognition, clustering,
-            deep learning pipelines, and AutoML frameworks.
-        </p>
-    </div>
-</section>
+<div class="hero">
+<h1>Your Name</h1>
+<p>AI Researcher specializing in Machine Learning, Computer Vision, and scalable intelligent systems for real-world impact.</p>
 
-<section id="research">
-    <h2>Research Interests</h2>
-    <div class="card">
-        <ul>
-            <li>Deep Learning & Representation Learning</li>
-            <li>Face Recognition & Embedding Systems</li>
-            <li>Meta-Learning & AutoML</li>
-            <li>Scalable AI Architectures</li>
-            <li>Medical AI & Secure ML Systems</li>
-        </ul>
-    </div>
+<div class="metrics">
+<div class="metric">
+<h3>5+</h3>
+<p>Research Projects</p>
+</div>
+<div class="metric">
+<h3>3+</h3>
+<p>AI Systems Built</p>
+</div>
+<div class="metric">
+<h3>2026</h3>
+<p>Research Active</p>
+</div>
+</div>
+</div>
+
+<section id="about">
+<h2>About Me</h2>
+<div class="card">
+I am a research-driven AI engineer focused on deep learning architectures, representation learning, and scalable computer vision systems. My work bridges theory and real-world deployment, emphasizing robust embeddings, clustering pipelines, and AutoML optimization.
+</div>
 </section>
 
 <section id="projects">
-    <h2>Selected Projects</h2>
-
-    <div class="card">
-        <h3>Face Clustering Pipeline</h3>
-        <p>Developed embedding-based clustering using RetinaFace, FaceNet and HDBSCAN for automated identity grouping across videos.</p>
-    </div>
-
-    <div class="card">
-        <h3>AutoML Framework</h3>
-        <p>Implemented automated model selection and hyperparameter tuning using AutoKeras for optimal performance.</p>
-    </div>
-
-    <div class="card">
-        <h3>Deep Image Restoration</h3>
-        <p>Designed neural networks for denoising and super-resolution in biomedical and space imaging domains.</p>
-    </div>
-
+<h2>Selected Projects</h2>
+<div class="grid">
+<div class="card">
+<h3>Face Clustering System</h3>
+Designed an embedding-based clustering pipeline using RetinaFace, FaceNet, and HDBSCAN for automated identity grouping.
+</div>
+<div class="card">
+<h3>AutoML Optimization Framework</h3>
+Implemented automated hyperparameter tuning using AutoKeras and scalable training pipelines.
+</div>
+<div class="card">
+<h3>Deep Image Restoration</h3>
+Developed deep neural networks for denoising and super-resolution in biomedical imaging.
+</div>
+</div>
 </section>
 
 <section id="experience">
-    <h2>Research Experience</h2>
-    <div class="card timeline">
-        <div class="timeline-item">
-            <strong>Computer Vision Intern</strong><br>
-            SPCV Lab – IIT Tirupati<br>
-            Jan 2026 – Present<br>
-            Working on object recognition and advanced face clustering systems.
-        </div>
-    </div>
+<h2>Research Experience</h2>
+<div class="timeline">
+<div class="timeline-item">
+<strong>Computer Vision Intern</strong><br>
+SPCV Lab – IIT Tirupati<br>
+Jan 2026 – Present<br>
+Working on advanced face recognition and object detection pipelines.
+</div>
+</div>
 </section>
 
 <section id="skills">
-    <h2>Technical Skills</h2>
-    <div class="card">
-        <div class="skills">
-            <div class="skill-tag">Python</div>
-            <div class="skill-tag">PyTorch</div>
-            <div class="skill-tag">TensorFlow</div>
-            <div class="skill-tag">OpenCV</div>
-            <div class="skill-tag">Scikit-learn</div>
-            <div class="skill-tag">AutoML</div>
-            <div class="skill-tag">HDBSCAN</div>
-            <div class="skill-tag">Git</div>
-            <div class="skill-tag">Linux</div>
-        </div>
-    </div>
+<h2>Technical Skills</h2>
+<div class="skills">
+<div class="skill">Python</div>
+<div class="skill">PyTorch</div>
+<div class="skill">TensorFlow</div>
+<div class="skill">OpenCV</div>
+<div class="skill">Scikit-Learn</div>
+<div class="skill">AutoML</div>
+<div class="skill">HDBSCAN</div>
+<div class="skill">Linux</div>
+<div class="skill">Git</div>
+</div>
 </section>
 
 <section id="contact">
-    <h2>Contact</h2>
-    <div class="card contact">
-        <p>Email: yourmail@example.com</p>
-        <p>GitHub: <a href="#">github.com/yourprofile</a></p>
-        <p>LinkedIn: <a href="#">linkedin.com/in/yourprofile</a></p>
-    </div>
+<h2>Contact</h2>
+<div class="card">
+Email: yourmail@example.com <br><br>
+GitHub: github.com/yourprofile <br><br>
+LinkedIn: linkedin.com/in/yourprofile
+</div>
 </section>
 
 <footer>
-    © 2026 Your Name | Research Portfolio
+© 2026 Your Name | AI Research Portfolio
 </footer>
 
 <script>
-/* Fade-in Animation on Scroll */
-const cards = document.querySelectorAll('.card');
+/* Neural Network Background */
+const canvas = document.getElementById("network");
+const ctx = canvas.getContext("2d");
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 
-const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            entry.target.style.opacity = 1;
-            entry.target.style.transform = "translateY(0)";
-        }
-    });
-}, { threshold: 0.2 });
+let particlesArray = [];
+const numberOfParticles = 80;
 
-cards.forEach(card => observer.observe(card));
+class Particle{
+constructor(){
+this.x = Math.random()*canvas.width;
+this.y = Math.random()*canvas.height;
+this.size = 2;
+this.speedX = Math.random()*1 -0.5;
+this.speedY = Math.random()*1 -0.5;
+}
+update(){
+this.x += this.speedX;
+this.y += this.speedY;
+if(this.x<0||this.x>canvas.width) this.speedX*=-1;
+if(this.y<0||this.y>canvas.height) this.speedY*=-1;
+}
+draw(){
+ctx.fillStyle="#38bdf8";
+ctx.beginPath();
+ctx.arc(this.x,this.y,this.size,0,Math.PI*2);
+ctx.fill();
+}
+}
+
+function init(){
+for(let i=0;i<numberOfParticles;i++){
+particlesArray.push(new Particle());
+}
+}
+
+function connect(){
+for(let a=0;a<particlesArray.length;a++){
+for(let b=a;b<particlesArray.length;b++){
+let dx=particlesArray[a].x-particlesArray[b].x;
+let dy=particlesArray[a].y-particlesArray[b].y;
+let distance=dx*dx+dy*dy;
+if(distance<10000){
+ctx.strokeStyle="rgba(56,189,248,0.1)";
+ctx.lineWidth=1;
+ctx.beginPath();
+ctx.moveTo(particlesArray[a].x,particlesArray[a].y);
+ctx.lineTo(particlesArray[b].x,particlesArray[b].y);
+ctx.stroke();
+}
+}
+}
+}
+
+function animate(){
+ctx.clearRect(0,0,canvas.width,canvas.height);
+for(let i=0;i<particlesArray.length;i++){
+particlesArray[i].update();
+particlesArray[i].draw();
+}
+connect();
+requestAnimationFrame(animate);
+}
+
+init();
+animate();
+
+window.addEventListener("resize",()=>{
+canvas.width=window.innerWidth;
+canvas.height=window.innerHeight;
+});
 </script>
 
 </body>
