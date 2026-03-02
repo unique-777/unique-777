@@ -1,124 +1,177 @@
-# YOUR NAME
-### Machine Learning | Computer Vision | Research-Oriented Engineer
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nayanapalli Venkata Jahnavi | AI/ML Engineer</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+body{
+    background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color:white;
+}
+.container{
+    display:flex;
+    min-height:100vh;
+}
+.sidebar{
+    width:35%;
+    background:rgba(0,0,0,0.4);
+    padding:40px;
+    text-align:center;
+    backdrop-filter:blur(10px);
+}
+.sidebar img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid #00f5a0;
+    margin-bottom:20px;
+}
+.sidebar h1{
+    font-size:22px;
+    font-weight:700;
+}
+.sidebar h3{
+    font-size:14px;
+    font-weight:400;
+    margin:10px 0 20px 0;
+    color:#00f5a0;
+}
+.contact{
+    font-size:13px;
+    line-height:22px;
+}
+.main{
+    width:65%;
+    padding:50px;
+}
+.section{
+    margin-bottom:40px;
+}
+.section h2{
+    font-size:18px;
+    margin-bottom:15px;
+    color:#00f5a0;
+    border-bottom:1px solid #00f5a0;
+    padding-bottom:5px;
+}
+.section p, .section li{
+    font-size:14px;
+    line-height:22px;
+    opacity:0.9;
+}
+ul{
+    padding-left:18px;
+}
+.badge{
+    display:inline-block;
+    background:#00f5a0;
+    color:black;
+    padding:5px 12px;
+    border-radius:20px;
+    font-size:12px;
+    margin:5px 5px 0 0;
+}
+.footer{
+    text-align:center;
+    padding:15px;
+    font-size:12px;
+    opacity:0.6;
+}
+</style>
+</head>
 
-📍 India  
-📧 your.email@gmail.com  
-🔗 [LinkedIn](#) | [Google Scholar](#) | [CV (PDF)](#)
+<body>
 
----
+<div class="container">
 
-## PROFILE
+<div class="sidebar">
+    <img src="your-photo.jpg" alt="Profile Photo">
+    <h1>Nayanapalli Venkata Jahnavi</h1>
+    <h3>AI/ML Engineering Aspirant</h3>
+    <div class="contact">
+        📍 Kadapa, Andhra Pradesh<br>
+        📞 +91 8919403177<br>
+        📧 jahnavi.venkata777@gmail.com<br>
+        🔗 LinkedIn | GitHub
+    </div>
+</div>
 
-Research-driven engineering student focused on Machine Learning and Computer Vision.  
-Experienced in building scalable end-to-end AI systems from data preprocessing to deployment.  
-Actively seeking international & national research internships, applied ML roles, and MS/MTech opportunities.
+<div class="main">
 
----
+<div class="section">
+<h2>About Me</h2>
+<p>
+Research-oriented AI/ML student focused on Computer Vision, Deep Learning and intelligent system design.
+Actively pursuing research internships, MS/MTech opportunities and applied AI roles.
+</p>
+</div>
 
-## RESEARCH INTERESTS
+<div class="section">
+<h2>Education</h2>
+<p><strong>RGUKT RK Valley</strong> – B.Tech Computer Science (2022–Present) | CGPA: 8.35/10</p>
+<p><strong>RGUKT RK Valley</strong> – PUC (MPC) (2020–2022) | CGPA: 9.34/10</p>
+</div>
 
-- Deep Learning  
-- Computer Vision  
-- Representation Learning  
-- Face Recognition & Clustering  
-- Image Restoration (Denoising, Super-Resolution)  
-- AutoML & Meta-Learning  
-- AI for Healthcare  
-- Scalable ML Systems  
+<div class="section">
+<h2>Core Skills</h2>
+<span class="badge">Python</span>
+<span class="badge">TensorFlow</span>
+<span class="badge">Keras</span>
+<span class="badge">Scikit-learn</span>
+<span class="badge">OpenCV</span>
+<span class="badge">Transformers</span>
+<span class="badge">Django</span>
+<span class="badge">Deep Learning</span>
+<span class="badge">NLP</span>
+<span class="badge">GitHub</span>
+<span class="badge">MySQL</span>
+</div>
 
----
+<div class="section">
+<h2>Research & Internship Experience</h2>
+<ul>
+<li><strong>SPCV Lab, IIT Tirupati (2026)</strong> – Research Intern under Prof. Ramakrishna Gorthi (Computer Vision & Object Recognition).</li>
+<li><strong>Aurora Rising Summer School, IIT Gandhinagar (2025)</strong> – Robotics & Vision (Franka, Heal).</li>
+<li><strong>Microsoft AI Azure Internship (2025)</strong> – AI Fundamentals & Azure AI Services.</li>
+<li><strong>SURE Trust Data Science Internship (2024)</strong> – Supervised Learning & Data Processing.</li>
+<li><strong>Extion Infotech AI/ML Internship (2024)</strong> – Quantum Federated Learning & Multimodal ML.</li>
+</ul>
+</div>
 
-## TECHNICAL SKILLS
+<div class="section">
+<h2>Projects</h2>
+<ul>
+<li><strong>Mood-Based Story Generator with Voice Cloning</strong> – Django + Transformers + Coqui TTS.</li>
+<li><strong>Odd Number Game using LeapHand</strong> – OpenCV-based gesture interaction system.</li>
+<li><strong>Fraud Detection & Payment Reversal System</strong> – Django + ML real-time detection prototype.</li>
+</ul>
+</div>
 
-**Languages:**  
-Python | C++ | SQL | JavaScript  
+<div class="section">
+<h2>Achievements</h2>
+<ul>
+<li>Runner-up – Infosys Women Hackathon (2024).</li>
+<li>Selected – Smart India Hackathon 2024 (Hardware Edition).</li>
+<li>Coordinator – Competitive Exam Club (2024–Present).</li>
+<li>NMMS Scholarship Recipient (2018).</li>
+</ul>
+</div>
 
-**Machine Learning & Deep Learning:**  
-PyTorch | TensorFlow | Keras | Scikit-learn | AutoKeras  
+</div>
+</div>
 
-**Computer Vision:**  
-OpenCV | RetinaFace | FaceNet | ONNX | Image Processing  
+<div class="footer">
+© 2026 Nayanapalli Venkata Jahnavi | AI & Machine Learning Portfolio
+</div>
 
-**Frameworks & Deployment:**  
-Django | Flask | FastAPI | REST APIs  
-
-**Tools & Platforms:**  
-Linux | Git | Docker | Jupyter | VS Code | Google Colab  
-
----
-
-## SELECTED PROJECTS
-
-### Face Recognition & Clustering System
-End-to-end automated pipeline for real-world video-based face clustering.  
-Robust to pose variations, occlusions, and illumination changes.  
-Optimized embedding extraction and clustering using deep metric learning.
-
-**Tech Stack:** Python, OpenCV, RetinaFace, FaceNet, HDBSCAN  
-
----
-
-### Deep Image Restoration
-Designed CNN-based architectures for denoising and super-resolution tasks.  
-Focused on biomedical and space image applications.
-
-**Tech Stack:** PyTorch, CNNs, Image Processing  
-
----
-
-### Automated Machine Learning (AutoML) System
-Implemented automated model selection and hyperparameter optimization framework.  
-Benchmarked models on structured datasets for performance evaluation.
-
-**Tech Stack:** AutoKeras, TensorFlow, Scikit-learn  
-
----
-
-## RESEARCH EXPERIENCE
-
-**Research Intern – SPCV Lab, IIT Tirupati**  
-Domain: Computer Vision & Object Recognition  
-Duration: Jan 2026 – Apr 2026  
-
-- Developed scalable face embedding extraction pipeline  
-- Improved clustering performance for side-profile faces  
-- Optimized GPU-based processing workflows  
-
----
-
-## PUBLICATIONS / MANUSCRIPTS
-
-- Research manuscript in preparation (Computer Vision)  
-- Exploring publication opportunities in ML & Vision conferences  
-
----
-
-## ACHIEVEMENTS
-
-- Strong academic foundation in Machine Learning  
-- Hands-on experience with real-world video datasets  
-- Built production-level ML pipelines  
-
----
-
-## CURRENT FOCUS
-
-- Robust representation learning  
-- Few-shot & meta-learning systems  
-- Scalable AI architectures for real-world deployment  
-
----
-
-## OPEN TO
-
-- International Research Internships  
-- National Research Internships  
-- ML / CV Intern Roles  
-- MS / MTech Programs  
-- Collaborative Research Projects  
-
----
-
-## PHILOSOPHY
-
-Building intelligent systems that are scalable, research-grounded, and impactful.
+</body>
+</html>
