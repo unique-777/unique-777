@@ -27,8 +27,4 @@ Django • Machine Learning
 
 🛠 Technical Stack
 <p align="center"> <img src="https://skillicons.dev/icons?i=python,opencv,tensorflow,keras,django,mysql,git,github" /> </p>
-📊 GitHub Profile
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=tokyonight&hide_border=true" height="150"> </p>
-🎯 Current Direction
-
 Research opportunities • MS pathways • AI/ML Internships
